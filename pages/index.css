@@ -1,6 +1,5 @@
-@media screen and (min-width: 1280px) {
-  .page {
-    background-color: rgba(0, 0, 0, 1);
-    color: rgba(255, 255, 255, 1);
-  }
-}
+@import url("../blocks/body.css");
+@import url("../blocks/content.css");
+@import url("../blocks/footer.css");
+@import url("../blocks/header.css");
+@import url("../blocks/page.css");

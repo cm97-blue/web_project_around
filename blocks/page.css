@@ -1,0 +1,6 @@
+@media screen and (min-width: 1280px) {
+  .page {
+    color: rgba(255, 255, 255, 1);
+    margin: auto;
+  }
+}
