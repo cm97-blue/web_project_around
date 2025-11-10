@@ -27,14 +27,20 @@
             alt="profile-image"
             class="content-profile__image"
           />
-          <h1 class="content-profile__name">Jacques Cousteau</h1>
-          <h2 class="content-profile__hobbie">Escalador</h2>
+          <h1 id="profile-name" class="content-profile__name">
+            Jacques Cousteau
+          </h1>
+          <h2 id="hobbie-profile" class="content-profile__hobbie">Escalador</h2>
+
           <img
+            id="edit-boton"
             src="./images/pencil-logo.svg"
             alt="Edit-info-logo"
             class="content-profile__editinfo"
           />
+
           <img
+            id="close-boton"
             src="./images/plus-logo.svg"
             alt="add-info-logo"
             class="content-profile__addinfo"
@@ -49,6 +55,7 @@
             />
             <h1 class="content-elements__name">Faro BlackWell</h1>
             <img
+              id="heart-logo"
               src="./images/heart-logo.svg"
               alt="Heart-logo"
               class="content-elements__button-logo"
@@ -62,6 +69,7 @@
             />
             <h1 class="content-elements__name">YelloStone</h1>
             <img
+              id="heart-logo"
               src="./images/heart-logo.svg"
               alt="Heart-logo"
               class="content-elements__button-logo"
@@ -75,6 +83,7 @@
             />
             <h1 class="content-elements__name">National Park</h1>
             <img
+              id="heart-logo"
               src="./images/heart-logo.svg"
               alt="Heart-logo"
               class="content-elements__button-logo"
@@ -88,6 +97,7 @@
             />
             <h1 class="content-elements__name">San Francisco</h1>
             <img
+              id="heart-logo"
               src="./images/heart-logo.svg"
               alt="Heart-logo"
               class="content-elements__button-logo"
@@ -101,6 +111,7 @@
             />
             <h1 class="content-elements__name">Nuevo México</h1>
             <img
+              id="heart-logo"
               src="./images/heart-logo.svg"
               alt="Heart-logo"
               class="content-elements__button-logo"
@@ -114,10 +125,46 @@
             />
             <h1 class="content-elements__name">Los Angeles</h1>
             <img
+              id="heart-logo"
               src="./images/heart-logo.svg"
               alt="Heart-logo"
               class="content-elements__button-logo"
             />
+          </div>
+        </section>
+        <section id="editform" class="popup popup__opened">
+          <div>
+            <img
+              id="cross"
+              src="./images/Close Icon.svg"
+              alt="close-logo"
+              class="popup__container-closelogo"
+            />
+          </div>
+          <div class="popup__container">
+            <h2 class="popup__container-title">Editar Perfil</h2>
+
+            <form>
+              <fieldset class="popup__container-fieldset">
+                <label for="Nombre" class="popup__container-label"> </label>
+                <input
+                  class="popup__container-profile"
+                  type="text"
+                  required
+                  placeholder="Nombre"
+                />
+                <label for="About user" class="popup__container-label"> </label>
+                <input
+                  class="popup__container-hobbie"
+                  type="text"
+                  required
+                  placeholder="Acerca de mí"
+                />
+              </fieldset>
+              <fieldset class="popup__container-fieldset">
+                <button class="popup__container__bottom">Guardar</button>
+              </fieldset>
+            </form>
           </div>
         </section>
       </main>
@@ -125,5 +172,7 @@
         <p>© 2025 Around The U.S.</p>
       </footer>
     </div>
+
+    <script src="./scripts/scripts.js"></script>
   </body>
 </html>

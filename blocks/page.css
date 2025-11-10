@@ -1,8 +1,6 @@
-@media screen and (min-width: 1280px) {
-  .page {
-    color: rgba(255, 255, 255, 1);
-    margin: auto;
-    font-family: "inter-regular";
-    font-style: normal;
-  }
+.page {
+  color: rgba(255, 255, 255, 1);
+  margin: auto;
+  font-family: "inter-regular";
+  font-style: normal;
 }
