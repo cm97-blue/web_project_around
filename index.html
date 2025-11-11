@@ -146,18 +146,19 @@
 
             <form>
               <fieldset class="popup__container-fieldset">
-                <label for="Nombre" class="popup__container-label"> </label>
+                <label for="form-name" class="popup__container-label"> </label>
                 <input
                   class="popup__container-profile"
                   type="text"
-                  required
+                  id="form-name"
                   placeholder="Nombre"
                 />
-                <label for="About user" class="popup__container-label"> </label>
+                <label for="form-hobbie" class="popup__container-label">
+                </label>
                 <input
                   class="popup__container-hobbie"
                   type="text"
-                  required
+                  id="form-hobbie"
                   placeholder="Acerca de mí"
                 />
               </fieldset>
@@ -176,3 +177,20 @@
     <script src="./scripts/scripts.js"></script>
   </body>
 </html>
+
+<!-- let ejemplo = document.getElementById("form-hobbie");
+let prueba = ejemplo.placeholder;
+
+let ying = document.getElementById("form-name");
+let yang = ying.placeholder; -->
+
+
+
+<!-- let profile = document.getElementById("profile-name").textContent;
+let hobbie = document.getElementById("hobbie-profile").textContent;
+
+let formName = document.getElementById("form-name");
+let formHobbie = document.getElementById("form-hobbie");
+
+formHobbie.value = hobbie;
+formName.value = profile; 

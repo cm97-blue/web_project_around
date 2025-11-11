@@ -2,9 +2,6 @@ let editProfile = document.getElementById("edit-boton");
 let closeForm = document.getElementById("cross");
 let form = document.getElementById("editform");
 
-let profile = document.getElementById("profile-name");
-let hobbie = document.getElementById("hobbie-profile");
-
 function actForm() {
   form.classList.remove("popup");
 }
@@ -15,3 +12,14 @@ function desForm() {
   form.classList.add("popup");
 }
 closeForm.addEventListener("click", desForm);
+
+let borrar = document.querySelector("content-profile");
+
+let blanca = document.getElementById("profile-name").innerText;
+let liz = document.getElementById("hobbie-profile").innerText;
+
+let formName = document.getElementById("form-name");
+let formHobbie = document.getElementById("form-hobbie");
+
+formName.value = blanca;
+formHobbie.value = liz;
