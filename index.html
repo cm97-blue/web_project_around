@@ -144,7 +144,7 @@
           <div class="popup__container">
             <h2 class="popup__container-title">Editar Perfil</h2>
 
-            <form>
+            <form id="formulario" class="form">
               <fieldset class="popup__container-fieldset">
                 <label for="form-name" class="popup__container-label"> </label>
                 <input
@@ -163,7 +163,12 @@
                 />
               </fieldset>
               <fieldset class="popup__container-fieldset">
-                <button class="popup__container__bottom">Guardar</button>
+                <button
+                  id="form-buttonsave"
+                  class="popup__container__bottom popup__container__bottomsave"
+                >
+                  Guardar
+                </button>
               </fieldset>
             </form>
           </div>
@@ -177,20 +182,3 @@
     <script src="./scripts/scripts.js"></script>
   </body>
 </html>
-
-<!-- let ejemplo = document.getElementById("form-hobbie");
-let prueba = ejemplo.placeholder;
-
-let ying = document.getElementById("form-name");
-let yang = ying.placeholder; -->
-
-
-
-<!-- let profile = document.getElementById("profile-name").textContent;
-let hobbie = document.getElementById("hobbie-profile").textContent;
-
-let formName = document.getElementById("form-name");
-let formHobbie = document.getElementById("form-hobbie");
-
-formHobbie.value = hobbie;
-formName.value = profile; 

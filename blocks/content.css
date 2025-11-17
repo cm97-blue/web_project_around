@@ -35,6 +35,8 @@
     line-height: 48px;
     font-size: 42px;
     grid-area: name;
+    text-overflow: ellipsis;
+    white-space: nowrap;
   }
   .content-profile__hobbie {
     width: 415px;
@@ -46,6 +48,9 @@
     font-style: normal;
     font-size: 18px;
     grid-area: hobbie;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
   }
   .content-profile__editinfo {
     width: 10px;
@@ -124,6 +129,9 @@
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     grid-area: place;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
   }
 
   .content-elements__button-logo {
@@ -179,6 +187,9 @@
     line-height: 100%;
     font-size: 22px;
     grid-area: name;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
   }
   .content-profile__hobbie {
     width: 282px;
@@ -191,6 +202,9 @@
     font-size: 14px;
     grid-area: hobbie;
     text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
   }
   .content-profile__editinfo {
     width: 7px;
@@ -272,6 +286,9 @@
     grid-area: place;
     font-family: "inter-bold";
     font-style: bold;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
   }
 
   .content-elements__button-logo {
